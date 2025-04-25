@@ -1,6 +1,8 @@
 정승재 (Jung Seung Jae)
 =
 ## Contact
+- Gmail (laberryo0912@gmail.com)
+- Naver Mail (tuti13245@naver.com)
 - Tistory (https://laberryo.tistory.com/)
 
 # Project
