@@ -1,5 +1,6 @@
-2025년 04월 25일 정승재 포트폴리오
+정승재 (Jung Seung Jae)
 =
+# Project
 
 ## Python
 - Bug-Knights-SE (Pygame)
@@ -24,3 +25,44 @@
     - 단순 HTML/CSS/JavaScript로 제작된 개인 페이지입니다.
     - https://laberryo.github.io/LaberryWebPortfolio/ (Github Page 로 배포됨.)
     - https://github.com/LaberryO/LaberryWebPortfolio
+
+# Skills
+현재 사용 가능한 기술입니다.
+- S/W
+    - C
+    - Python
+    - Java
+- Web
+    - HTML & CSS & JavaScript
+- Front-End
+    - JQuery
+    - Bootstrap
+- Back-End
+    - Java Server Page
+    - Spring Boot
+- Server
+    - Tomcat
+- DB
+    - MySQL
+    - Oracle DB
+    - H2 Database
+- Tools & Collaborations
+    - Visual Studio Code
+    - Git & Github
+    - Notion
+- Design
+    - Photoshop
+
+# Study Skills
+현재 학습 중이며, 사용해본 적 있는 기술입니다.
+- S/W
+    - C++
+    - C#
+- Front-End
+    - React
+    - Vue.js
+- DB
+    - Mariana DB
+- Game Engine
+    - Unity 3D
+    - Unreal Engine 5
