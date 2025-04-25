@@ -1,0 +1,112 @@
+[
+  {
+    "name": "MSI MAG X870 토마호크 WIFI",
+    "socket": "AMD(소켓AM5)",
+    "formFactor": "ATX (30.5x24.4cm)",
+    "ddrSupport": "DDR5",
+    "maxMemory": 256,
+    "PCISlots": 4,
+    "fileName": "Bin.jpg",
+    "price": 350000,
+    "makeCompany": 14
+  },
+  {
+    "name": "ASRock B650M PG Lightning",
+    "socket": "AMD(소켓AM5)",
+    "formFactor": "M-ATX",
+    "ddrSupport": "DDR5",
+    "maxMemory": 192,
+    "PCISlots": 3,
+    "fileName": "Bin.jpg",
+    "price": 150000,
+    "makeCompany": 16
+  },
+  {
+    "name": "MSI MAG B760M 박격포 II",
+    "socket": "인텔(소켓1700)",
+    "formFactor": "M-ATX",
+    "ddrSupport": "DDR5",
+    "maxMemory": 256,
+    "PCISlots": 3,
+    "fileName": "Bin.jpg",
+    "price": 180000,
+    "makeCompany": 14
+  },
+  {
+    "name": "MSI PRO B760M-A DDR4 II",
+    "socket": "인텔(소켓1700)",
+    "formFactor": "M-ATX",
+    "ddrSupport": "DDR4",
+    "maxMemory": 128,
+    "PCISlots": 3,
+    "fileName": "Bin.jpg",
+    "price": 130000,
+    "makeCompany": 14
+  },
+  {
+    "name": "MSI MAG B650M 박격포 WIFI",
+    "socket": "AMD(소켓AM5)",
+    "formFactor": "M-ATX",
+    "ddrSupport": "DDR5",
+    "maxMemory": 256,
+    "PCISlots": 3,
+    "fileName": "Bin.jpg",
+    "price": 170000,
+    "makeCompany": 14
+  },
+  {
+    "name": "ASUS TUF Gaming B850M-PLUS WIFI STCOM",
+    "socket": "AMD(소켓AM5)",
+    "formFactor": "M-ATX",
+    "ddrSupport": "DDR5",
+    "maxMemory": 192,
+    "PCISlots": 3,
+    "fileName": "Bin.jpg",
+    "price": 200000,
+    "makeCompany": 8
+  },
+  {
+    "name": "GIGABYTE B650M K 피씨디렉트",
+    "socket": "AMD(소켓AM5)",
+    "formFactor": "M-ATX",
+    "ddrSupport": "DDR5",
+    "maxMemory": 192,
+    "PCISlots": 3,
+    "fileName": "Bin.jpg",
+    "price": 160000,
+    "makeCompany": 17
+  },
+  {
+    "name": "GIGABYTE B650M K 제이씨현",
+    "socket": "AMD(소켓AM5)",
+    "formFactor": "M-ATX",
+    "ddrSupport": "DDR5",
+    "maxMemory": 192,
+    "PCISlots": 3,
+    "fileName": "Bin.jpg",
+    "price": 160000,
+    "makeCompany": 17
+  },
+  {
+    "name": "ASUS PRIME A520M-K 대원씨티에스",
+    "socket": "AMD(소켓AM4)",
+    "formFactor": "M-ATX",
+    "ddrSupport": "DDR4",
+    "maxMemory": 64,
+    "PCISlots": 3,
+    "fileName": "Bin.jpg",
+    "price": 75000,
+    "makeCompany": 8
+  },
+  {
+    "name": "ASRock B650M Pro RS 대원씨티에스",
+    "socket": "AMD(소켓AM5)",
+    "formFactor": "M-ATX",
+    "ddrSupport": "DDR5",
+    "maxMemory": 192,
+    "PCISlots": 3,
+    "fileName": "Bin.jpg",
+    "price": 130000,
+    "makeCompany": 16
+  }
+]

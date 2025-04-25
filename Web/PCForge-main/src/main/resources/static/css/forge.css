@@ -1,0 +1,21 @@
+.nav-item {
+	flex: 1 1 33%;
+}
+
+@media (min-width: 768px) {
+	.nav-item {
+		flex: 1 1 auto;
+	}
+}
+
+.single-chart {
+	height: 45px !important;
+}
+
+.double-chart {
+	height: 80px !important;
+}
+
+.h-3em {
+	height: 3em;
+}

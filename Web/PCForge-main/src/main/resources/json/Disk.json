@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Samsung 970 EVO Plus",
+    "capacity": 1000,
+    "type": "SSD",
+    "speed": 3500,
+    "fileName": "Bin.jpg",
+    "price": "129000",
+    "makeCompany": 1
+  },
+  {
+    "name": "Western Digital Black SN850",
+    "capacity": 500,
+    "type": "SSD",
+    "speed": 7000,
+    "fileName": "Bin.jpg",
+    "price": "155000",
+    "makeCompany": 19
+  },
+  {
+    "name": "Seagate Barracuda",
+    "capacity": 2000,
+    "type": "HDD",
+    "speed": 7200,
+    "fileName": "Bin.jpg",
+    "price": "82000",
+    "makeCompany": 20
+  },
+  {
+    "name": "Crucial P5 Plus",
+    "capacity": 1000,
+    "type": "SSD",
+    "speed": 6600,
+    "fileName": "Bin.jpg",
+    "price": "114000",
+    "makeCompany": 21
+  },
+  {
+    "name": "Toshiba X300",
+    "capacity": 4000,
+    "type": "HDD",
+    "speed": 7200,
+    "fileName": "Bin.jpg",
+    "price": "155000",
+    "makeCompany": 19
+  },
+  {
+    "name": "Kingston KC3000",
+    "capacity": 2000,
+    "type": "SSD",
+    "speed": 7000,
+    "fileName": "Bin.jpg",
+    "price": "269000",
+    "makeCompany": 2
+  },
+  {
+    "name": "SanDisk Ultra 3D",
+    "capacity": 1000,
+    "type": "SSD",
+    "speed": 560,
+    "fileName": "Bin.jpg",
+    "price": "89000",
+    "makeCompany": 22
+  },
+  {
+    "name": "Seagate FireCuda 530",
+    "capacity": 2000,
+    "type": "SSD",
+    "speed": 7300,
+    "fileName": "Bin.jpg",
+    "price": "315000",
+    "makeCompany": 20
+  },
+  {
+    "name": "WD Blue 3D NAND",
+    "capacity": 500,
+    "type": "SSD",
+    "speed": 560,
+    "fileName": "Bin.jpg",
+    "price": "62000",
+    "makeCompany": 19
+  },
+  {
+    "name": "Seagate IronWolf",
+    "capacity": 3000,
+    "type": "HDD",
+    "speed": 7200,
+    "fileName": "Bin.jpg",
+    "price": "132000",
+    "makeCompany": 20
+  }
+]

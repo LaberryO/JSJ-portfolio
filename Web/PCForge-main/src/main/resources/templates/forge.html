@@ -1,0 +1,177 @@
+<html layout:decorate="~{layout}">
+<title layout:fragment="title">견적 제작하기 - PCForge</title>
+<th:block layout:fragment="style">
+	<link rel="stylesheet" th:href="@{/css/forge.css}" />
+</th:block>
+<div layout:fragment="content" id="layoutSidenav_content">
+	<main>
+		<div class="container-fluid px-4 py-4">
+			<input type="hidden" id="pageStatus" th:value="${statusTemp}" />
+			<div class="row">
+				<!-- 1번 비교 -->
+				<div class="col-md-4">
+					<div class="card" id="selectedItem1">
+						<div class="card-header">
+							<input type="hidden" id="item_id" />
+							<img src="" alt="" id="item_image" class="w-100" />
+						</div>
+						<div class="card-body">
+							<div class="row">
+								<div class="col h-3em">
+									<span id="item_name"></span>
+								</div>
+							</div>
+							<th:block th:replace="~{|/fragments/${statusTemp}| :: |${statusTemp}Fragment|}"></th:block>
+							<div class="row align-items-center">
+								<div class="col d-flex align-items-center">
+									<canvas class="single-chart" id="item_price"></canvas>
+								</div>
+							</div>
+							<!-- <div class="row">
+								<div class="col">
+									<canvas id="forgeChart"></canvas>
+								</div>
+							</div> -->
+						</div>
+						<div class="card-footer">
+							<div class="ms-auto btn btn-outline-danger" id="select_disable">
+								선택 해제
+							</div>
+							<a href="" class="ms-auto btn btn-outline-primary" id="select_this">
+								장바구니에 담기
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 mt-4 d-md-none"></div>
+				<!-- 2번 비교 -->
+				<div class="col-md-4">
+					<div class="card" id="selectedItem2">
+						<div class="card-header">
+							<input type="hidden" id="item_id" />
+							<img src="" alt="" id="item_image" class="w-100" />
+						</div>
+						<div class="card-body">
+							<div class="row">
+								<div class="col h-3em">
+									<span id="item_name"></span>
+								</div>
+							</div>
+							<th:block th:replace="~{|/fragments/${statusTemp}| :: |${statusTemp}Fragment|}"></th:block>
+							<div class="row align-items-center">
+								<div class="col d-flex align-items-center">
+									<canvas class="single-chart" id="item_price"></canvas>
+								</div>
+							</div>
+							<!-- <div class="row">
+								<div class="col">
+									<canvas id="forgeChart"></canvas>
+								</div>
+							</div> -->
+						</div>
+						<div class="card-footer">
+							<div class="ms-auto btn btn-outline-danger" id="select_disable">
+								선택 해제
+							</div>
+							<a href="" class="ms-auto btn btn-outline-primary" id="select_this">
+								장바구니에 담기
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 my-5 d-md-none border-top border-2"></div>
+				<div class="col-md-4">
+					<!-- 검색 부분 -->
+					<div class="row mb-4">
+						<div class="col">
+							<div class="card vh-50">
+								<!-- 검색 창 -->
+								<div class="card-header">
+									<div class="input-group">
+										<input type="text" class="form-control" id="search_kw" th:value="${kw}"
+											placeholder="" />
+										<a class="btn btn-secondary" id="btnSearch">
+											조회
+										</a>
+									</div>
+								</div>
+								<!-- 선택 -->
+								<div class="card-body h-auto overflow-scroll">
+									<div class="row">
+										<!-- 선택될 한개 요소 -->
+										<div class="col-6 mb-4" th:each="item : ${forgeSearchList}">
+											<label th:for="${item.id}" class="card">
+												<div class="card-body">
+													<img th:src="@{/assets/img/exam-cpu.jpg}" alt="" class="w-100" />
+												</div>
+												<div class="card-footer text-truncate">
+													<input type="checkbox" class="form-check-input" name="item_option"
+														th:id="${item.id}" th:value="${item.id}" />
+													<span class="ms-1" th:title="${item.name}">[[${item.name}]]</span>
+												</div>
+											</label>
+										</div>
+									</div>
+								</div>
+								<form th:action="@{|/forge/create/${statusTemp}|}" method="get" id="searchForm">
+									<input type="hidden" id="kw" name="kw" th:value="${kw}" />
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="row py-5 d-none d-md-block"></div>
+					<!-- 구매 부분 -->
+					<div class="row mt-4">
+						<div class="col">
+							<div class="card">
+								<div class="card-header">
+									선택된 제품<br>
+									<th:block th:if="${itemId != null}" th:text="${itemId}"></th:block>
+								</div>
+								<div class="card-body">
+									내용
+								</div>
+								<div class="card-footer">
+									<a th:href="@{/forge/buy}" class="btn btn-outline-success">구매</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row py-5 d-md-none"></div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<nav class="nav justify-content-around position-fixed bottom-0 start-50 translate-middle-x w-100 ps-md-inherit ms-md-inherit text-center bg-light"
+		id="forgeNav">
+		<div class="nav-item">
+			<a th:href="@{cpu}" class="nav-link">CPU</a>
+		</div>
+		<div class="nav-item">
+			<a th:href="@{ram}" class="nav-link">RAM</a>
+		</div>
+		<div class="nav-item">
+			<a th:href="@{gpu}" class="nav-link">GPU</a>
+		</div>
+		<div class="nav-item">
+			<a th:href="@{mboard}" class="nav-link">메인보드</a>
+		</div>
+		<div class="nav-item">
+			<a th:href="@{psu}" class="nav-link">파워</a>
+		</div>
+		<div class="nav-item">
+			<a th:href="@{comcase}" class="nav-link">케이스</a>
+		</div>
+		<div class="nav-item">
+			<a th:href="@{disk}" class="nav-link">디스크</a>
+		</div>
+	</nav>
+</div>
+
+<th:block layout:fragment="script">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+	<script th:src="@{/js/forge.js}"></script>
+</th:block>
+
+</html>

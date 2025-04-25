@@ -1,0 +1,102 @@
+[
+  {
+    "name": "MSI GeForce GTX 1660 Super GAMING X",
+    "defaultSpeed": 1530,
+    "memorySize": 6144,
+    "type": "GeForce GTX 1660 Super",
+    "powerConsumption": 125,
+    "fileName": "Bin.jpg",
+    "price": 259000,
+    "makeCompany": 14
+  },
+  {
+    "name": "EVGA GeForce RTX 3070 XC3 Ultra Gaming",
+    "defaultSpeed": 1500,
+    "memorySize": 8192,
+    "type": "GeForce RTX 3070",
+    "powerConsumption": 220,
+    "fileName": "Bin.jpg",
+    "price": 799000,
+    "makeCompany": 19
+  },
+  {
+    "name": "ZOTAC GAMING GeForce RTX 3080",
+    "defaultSpeed": 1440,
+    "memorySize": 10240,
+    "type": "GeForce RTX 3080",
+    "powerConsumption": 320,
+    "fileName": "Bin.jpg",
+    "price": 1150000,
+    "makeCompany": 19
+  },
+  {
+    "name": "Gigabyte Radeon RX 6600 XT GAMING OC",
+    "defaultSpeed": 2350,
+    "memorySize": 8192,
+    "type": "Radeon RX 6600 XT",
+    "powerConsumption": 160,
+    "fileName": "Bin.jpg",
+    "price": 490000,
+    "makeCompany": 17
+  },
+  {
+    "name": "ASUS TUF Gaming GeForce RTX 3060",
+    "defaultSpeed": 1320,
+    "memorySize": 12288,
+    "type": "GeForce RTX 3060",
+    "powerConsumption": 170,
+    "fileName": "Bin.jpg",
+    "price": 589000,
+    "makeCompany": 8
+  },
+  {
+    "name": "MSI GeForce RTX 3070 Ti GAMING X",
+    "defaultSpeed": 1770,
+    "memorySize": 8192,
+    "type": "GeForce RTX 3070 Ti",
+    "powerConsumption": 250,
+    "fileName": "Bin.jpg",
+    "price": 950000,
+    "makeCompany": 14
+  },
+  {
+    "name": "NVIDIA Quadro RTX 8000",
+    "defaultSpeed": 1770,
+    "memorySize": 48512,
+    "type": "Quadro RTX 8000",
+    "powerConsumption": 295,
+    "fileName": "Bin.jpg",
+    "price": 11000000,
+    "makeCompany": 19
+  },
+  {
+    "name": "MSI GeForce RTX 3090 SUPRIM X",
+    "defaultSpeed": 1695,
+    "memorySize": 24336,
+    "type": "GeForce RTX 3090",
+    "powerConsumption": 350,
+    "fileName": "Bin.jpg",
+    "price": 2200000,
+    "makeCompany": 14
+  },
+  {
+    "name": "ASRock Radeon RX 5700 XT Challenger D",
+    "defaultSpeed": 1750,
+    "memorySize": 8192,
+    "type": "Radeon RX 5700 XT",
+    "powerConsumption": 225,
+    "fileName": "Bin.jpg",
+    "price": 600000,
+    "makeCompany": 16
+  },
+  {
+    "name": "Gigabyte GeForce GTX 1660 Ti GAMING OC",
+    "defaultSpeed": 1770,
+    "memorySize": 6144,
+    "type": "GeForce GTX 1660 Ti",
+    "powerConsumption": 120,
+    "fileName": "Bin.jpg",
+    "price": 370000,
+    "makeCompany": 17
+  }
+]
