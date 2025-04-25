@@ -1,5 +1,8 @@
 정승재 (Jung Seung Jae)
 =
+## Contact
+- Tistory (https://laberryo.tistory.com/)
+
 # Project
 
 ## Python
