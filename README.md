@@ -22,4 +22,5 @@
 ### Basic HTML/CSS/JavaScript
 - LaberryWebPortfolio
     - 단순 HTML/CSS/JavaScript로 제작된 개인 페이지입니다.
+    - https://laberryo.github.io/LaberryWebPortfolio/ (Github Page 로 배포됨.)
     - https://github.com/LaberryO/LaberryWebPortfolio
